@@ -1,0 +1,373 @@
+{
+  "metadata": {
+    "nombre": "Plan Estonia",
+    "lema": "Trabajo - Orden - Corazón",
+    "periodo": "2027 - 2031",
+    "territorio": "Distrito Metropolitano de Quito (DMQ), Pichincha, Ecuador",
+    "candidato": "Bernardo Felipe Jijón Nankervis",
+    "movimiento": "Libertad Ecuador (Subamos el nivel)",
+    "equipoAutores": [
+      "Bernardo Jijón Nankervis",
+      "Carlos Quintana",
+      "María Paulina Izurieta Morales",
+      "Santiago Morales",
+      "Jhoel Pazmiño",
+      "Hekeyris Hernández",
+      "José Martínez",
+      "Dario León",
+      "David Castro",
+      "Andrés Sánchez",
+      "Andrés Cevallos",
+      "Alex Parra"
+    ],
+    "filosofia": {
+      "doctrina": "Liberal clásica (Hayek, Locke)",
+      "cincoPalabrasClave": [
+        "Una sola vez",
+        "Plazo cierto",
+        "Título",
+        "Contrato",
+        "Precio"
+      ],
+      "vision": "Crear un sistema sostenible, responsable y amigable al ciudadano, que respete los principios fundamentales del individuo y permita el desarrollo.",
+      "mision": "Aumentar los estándares del ejercicio político, con mérito, excelencia, trabajo duro y dignificación."
+    }
+  },
+  "diagnosticoGeneralDMQ": {
+    "demografiaTerritorio": {
+      "extensionKm2": 4235.2,
+      "hectareas": 420091,
+      "porcentajePoblacionNacional": 15.5,
+      "poblacionCenso2022": 2679722,
+      "proyecciones": {
+        "2010": 2292804,
+        "2022": 2679722,
+        "2024": 2838174,
+        "2030": 2943834,
+        "2035": 3015497,
+        "2026_interpolado": 2873000
+      },
+      "division": {
+        "parroquiasUrbanas": 32,
+        "parroquiasRurales": 33,
+        "totalParroquias": 65,
+        "poblacionUrbana": 1776364,
+        "poblacionRural": 903358,
+        "administracionesZonales": 10,
+        "zonasEspeciales": 1
+      }
+    },
+    "presupuestoFinanzas2026": {
+      "presupuestoAprobadoBaseB": 1041860027.62,
+      "presupuestoProformaBaseA": 1023697616,
+      "inversion2026": 594268014,
+      "ingresosTributariosPropios": 312700000,
+      "caidaImpuestosNominales": "De USD 238.3M en 2025 a USD 222.9M en 2026",
+      "aporteGobiernoCentralCrecimiento": 30800000,
+      "deudaCiudad2026": 93400000,
+      "caidaObrasPublicasDirectas": "Cae de USD 138.0M a USD 78.5M",
+      "transferenciasEmpresasPublicas": "Sube de USD 278.5M (27%) a USD 395.9M (38%)",
+      "gastoSeguridadCiudadana2026": 4515030,
+      "gastoInversionMovilidad": 311600722
+    },
+    "macroeconomiaYRiesgos": {
+      "pibQuitoAporteNacional": "25% del VAB nacional",
+      "desempleoDMQ": "7.2% (el más alto del país, vs 3.6% nacional, 2.7% Guayaquil, 3.6% Cuenca)",
+      "empleoAdecuado": "55.1%",
+      "subempleo": "12.7%",
+      "informalidad": "25.1%",
+      "sinSeguridadSocial": "52% de los ocupados",
+      "desempleoJuvenil": "16.1% (mujeres jóvenes 18.5%)",
+      "desnutricionCronicaInfantilMenores2Anios": "23.3% en DMQ (vs 19.3% promedio nacional)",
+      "suicidios2024": "251 en Quito (cantón con más suicidios, vs 113 Guayaquil y 63 Cuenca)",
+      "deficitHabitacional": "12.6% total (10.4% cualitativo, 2.2% cuantitativo)",
+      "asentamientosInformales": "2.153 asentamientos de hecho en 2.569 ha; 80% sin regularizar"
+    }
+  },
+  "modeloCiudad": {
+    "lema": "Quito compacto, conectado y con dueño",
+    "diagnosticoEspacial": "Quito paga dos veces por la misma ciudad: se vacía donde hay servicios (Centro Histórico perdió 27.6% de población) y crece donde no los hay (Calderón +64.3%, Turubamba +71.9%). Financia infraestructura nueva en periferia mientras deja depreciar el centro.",
+    "cuatroDecisiones": [
+      {
+        "numero": 1,
+        "nombre": "Reciclar antes que expandir",
+        "regla": "Ningún dólar municipal financia infraestructura nueva en suelo no servido mientras exista capacidad instalada ociosa en suelo servido.",
+        "programasClave": [
+          "Operación CH Vive (repoblamiento Centro Histórico)",
+          "Reciclaje del Hipercentro en Eugenio Espejo",
+          "Castigo fiscal al suelo urbano servido ocioso"
+        ]
+      },
+      {
+        "numero": 2,
+        "nombre": "Densidad negociada por infraestructura, nunca discrecional",
+        "regla": "Más edificabilidad se concede por norma general y a cambio de contraprestación cuantificada (LOOTUGS art. 68: concesión onerosa de derechos), con tabla pública.",
+        "instrumentos": [
+          "Concesión onerosa de derechos",
+          "Contribución especial de mejoras (COOTAD 569)"
+        ]
+      },
+      {
+        "numero": 3,
+        "nombre": "Titular antes que construir",
+        "regla": "En el binomio regularizar-urbanizar, el título va primero, masivo y por lote de barrio. Convierte patrimonio sin título en colateral de crédito privado.",
+        "exclusion": "Exclusión taxativa de asentamientos en riesgo no mitigable o áreas de protección ecológica (reasentamiento transparente)."
+      },
+      {
+        "numero": 4,
+        "nombre": "Una frontera con precio: conservar tiene que ser el mejor negocio",
+        "regla": "La conservación no se sostiene con prohibición estéril; se sostiene con un flujo de ingresos superior a la alternativa destructiva.",
+        "instrumentos": [
+          "Pago por servicios ambientales (ampliar FONAG/EPMAPS de 41k ha)",
+          "Servidumbres ecológicas remuneradas",
+          "Emisión de deuda verde temática"
+        ]
+      }
+    ],
+    "losCuatroQuitos": {
+      "hipercentroCapitalOcioso": {
+        "zonas": [
+          "Manuela Sáenz",
+          "Eugenio Espejo",
+          "La Mariscal"
+        ],
+        "hecho": "Suelo servido vacío, Centro pierde 27.6%, Iñaquito con 30 hab/ha.",
+        "regla": "Reciclar y densificar con contraprestación. Vivienda por norma, no por obra municipal."
+      },
+      "surPopularProductivo": {
+        "zonas": [
+          "Quitumbe",
+          "Eloy Alfaro"
+        ],
+        "hecho": "Mayor carga de violencia intrafamiliar (43% del DMQ), peor índice ambiental (28), bono demográfico sin empleo local.",
+        "regla": "Empleo local y suelo industrial-logístico habilitado. Reducir el viaje diario al hipercentro."
+      },
+      "periferiaAcelerada": {
+        "zonas": [
+          "Calderón",
+          "Tumbaco",
+          "Los Chillos",
+          "La Delicia"
+        ],
+        "hecho": "Calderón +64.3% población sin sistema masivo; la violencia y el lahar siguen la expansión.",
+        "regla": "Ciudad completa antes que expansión: servicios, riesgo y control antes del loteo."
+      },
+      "bordeRuralidadConservacion": {
+        "zonas": [
+          "Chocó Andino",
+          "Parroquias rurales de captación"
+        ],
+        "hecho": "2.694 ha/año de patrimonio natural perdido; 90% del agua de Quito es superficial.",
+        "regla": "Renta por conservar y presencia estatal medible. Prohibir sin pagar no ha funcionado."
+      }
+    }
+  },
+  "modeloGestion": {
+    "lema": "Un Municipio que regula, contrata y mide; que ejecuta solo lo indelegable",
+    "sietePrincipios": [
+      {
+        "id": 1,
+        "principio": "Separación entre quien regula y quien opera",
+        "detalle": "El regulador es municipal; el operador puede ser privado o mixto."
+      },
+      {
+        "id": 2,
+        "principio": "El dinero sigue al resultado, no a la estructura",
+        "detalle": "Transferencias a empresas públicas convertidas en contratos-programa por km recorrido o ton tratada."
+      },
+      {
+        "id": 3,
+        "principio": "Presupuesto base cero por programa",
+        "detalle": "Cada programa justifica su permanencia cada año según métricas logradas."
+      },
+      {
+        "id": 4,
+        "principio": "Toda norma con costo regulatorio nace con fecha de caducidad",
+        "detalle": "Cláusula Sunset de máximo 4 años en ordenanzas con trámites o tasas."
+      },
+      {
+        "id": 5,
+        "principio": "Plazo cierto y silencio operativo",
+        "detalle": "Emisión automática de acto favorable vencido el plazo (COA art. 207)."
+      },
+      {
+        "id": 6,
+        "principio": "Un indicador por promesa, un dato abierto por indicador",
+        "detalle": "Serie pública con responsable con nombre y cargo."
+      },
+      {
+        "id": 7,
+        "principio": "Subsidio explícito, focalizado y con fecha de salida",
+        "detalle": "Entregado a la persona (Tarjeta Ciudad), no a la empresa ni al bus."
+      }
+    ],
+    "arquitecturaCincoCapas": {
+      "capa1_nucleoEstrategico": "Alcaldía + Secretaría de Coordinación del Plan (ORDEN, TRABAJO, CORAZÓN) + Secretaría de Finanzas/Planificación.",
+      "capa2_autoridadYRegulacion": "Lo indelegable: Agentes de Control, AMT, AMC, riesgos, catastro y la nueva Unidad de Regulación Económica Municipal.",
+      "capa3_empresasPublicas": {
+        "clasificacion180Dias": {
+          "tipoA_MonopolioNatural": "Permanece pública con tarifa técnica y contrato-programa (ej. EPMAPS).",
+          "tipoB_ServicioDelegable": "Concesión, APP o contrato por resultados (transporte de superficie, residuos, mercados, camal).",
+          "tipoC_SinJustificacion": "Fusión, transformación o liquidación ordenada."
+        }
+      },
+      "capa4_provisionDelegada": "APPs, Business Improvement Districts (BID La Mariscal), adopción de espacio público y gestión comunitaria rural.",
+      "capa5_territorioZonal": "Administraciones Zonales como unidades de gestión con presupuesto propio conocido y rendición de cuentas trimestral in situ."
+    },
+    "cuatroReglasFiscales": [
+      {
+        "regla": "R1: Techo de gasto corriente",
+        "contenido": "No crece por encima de la inflación anual."
+      },
+      {
+        "regla": "R2: Piso de ingresos propios",
+        "contenido": "Sube cada año respecto del 30% actual."
+      },
+      {
+        "regla": "R3: Techo de transferencia a EPs",
+        "contenido": "Baja respecto del 38% y 100% condicionada a entrega verificada."
+      },
+      {
+        "regla": "R4: Piso de seguridad y riesgos",
+        "contenido": "Sube cada año desde el 0.43% actual."
+      }
+    ]
+  },
+  "secuenciaPlurianual": {
+    "anio1_Orden": {
+      "enfoque": "Poner la casa en orden, desregulación, auditoría y seguridad",
+      "hitos": [
+        "Auditoría integral de contratos y estructuras (regla de fusión >40% atribuciones)",
+        "Clasificación A/B/C de empresas públicas en 180 días",
+        "Ordenanza de Desregulación por Riesgo, Plazo Cierto y Silencio Operativo",
+        "Armonización de Agentes de Control con COESCOP, escala salarial y bodycams",
+        "Catastro obligatorio de cámaras y reponderación de 22 PMO por incidencia",
+        "Piloto Once-Only y Alta Única de Empresa en Núcleo Financiero",
+        "Creación de la Unidad de Estructuración Financiera y Alianzas"
+      ]
+    },
+    "anio2_Trabajo": {
+      "enfoque": "Reactivación económica, empleo y ejecución de obras",
+      "hitos": [
+        "Primeros contratos-programa de transporte pagados por km recorrido",
+        "Creación de la Autoridad Metropolitana de Transporte y fórmula técnica indexada",
+        "Estructuración de extensión del Metro a La Ofelia (1/3 GAD, 1/3 Multilateral, 1/3 Plusvalía)",
+        "Formalización exprés de LUAE en 72 horas y tasa cero en Quitumbe, Calderón y Eloy Alfaro",
+        "Pacto dual formativo con 20 empresas y vouchers SkillsFuture",
+        "Parque Industrial de Turubamba y Distrito Tecnológico La Carolina",
+        "Tabla pública de concesión onerosa de derechos y arranque de titulación masiva"
+      ]
+    },
+    "anio3_Corazon": {
+      "enfoque": "Cierre de brechas sociales, ambiente y hábitat",
+      "hitos": [
+        "Administraciones Zonales con techo presupuestario y metas propias",
+        "Primer Business Improvement District (BID) en La Mariscal",
+        "Aceleración de Zona 1 del Cubeto 1 de El Inga (USD 21.7M) y concesión de orgánicos",
+        "Emisarios sanitarios de los ríos Machángara y Monjas",
+        "Red comunitaria de salud mental y 'Escuelas Abiertas' de 14h a 18h",
+        "Manzanas del Cuidado cofinanciadas (40% empresa, 30% GAD, 30% hogar)",
+        "Primera emisión de bonos verdes metropolitanos"
+      ]
+    },
+    "anio4_Sostenibilidad": {
+      "enfoque": "Consolidación, evaluación y transición institucional",
+      "hitos": [
+        "Evaluación y extinción/renovación de ordenanzas bajo cláusula sunset",
+        "Cierre definitivo de la clasificación de empresas públicas",
+        "Informe final auditado contra el Tablero Único Metropolitano",
+        "Balance público de suelo ocupado vs expandido",
+        "Actualización del PMDOT con miras al siguiente ciclo de gestión"
+      ]
+    }
+  },
+  "carteraFinancieraConsolidada": {
+    "sobreReferenciaCuatrienalBaseB": 2449.48,
+    "ejes": {
+      "digitalizacion": {
+        "aporteMunicipal": 24.6,
+        "terceros": 32.95,
+        "total": 57.55,
+        "multiplicadorApalancamiento": 1.34,
+        "cobertura": 2.34,
+        "programasClave": "P1 a P12 (Once-Only, Quito X-Road, Expediente Edificación, Puntos Asistidos)"
+      },
+      "seguridad": {
+        "aporteMunicipal": 90.82,
+        "terceros": 30.2,
+        "total": 121.02,
+        "multiplicadorApalancamiento": 0.33,
+        "cobertura": 1.33,
+        "programasClave": "PMOs por riesgo, C5Q cámaras privadas, Trazabilidad bienes usados, 10 Barrios"
+      },
+      "movilidad": {
+        "aporteMunicipal": 437.3,
+        "terceros": 915.5,
+        "total": 1352.8,
+        "multiplicadorApalancamiento": 2.09,
+        "cobertura": 3.09,
+        "programasClave": "Metro a La Ofelia, Pago por km, Teleférico La Roldós, Visión Cero, Acera Primero"
+      },
+      "desarrolloHumano": {
+        "aporteMunicipal": 134.2,
+        "terceros": 191.5,
+        "total": 325.7,
+        "multiplicadorApalancamiento": 1.43,
+        "cobertura": 2.43,
+        "programasClave": "Vouchers formativos, CH Vive, Titulación masiva, Manzanas del Cuidado, Salud Mental"
+      },
+      "ambiental": {
+        "aporteMunicipalMin": 305,
+        "aporteMunicipalMax": 522,
+        "tercerosMin": 178,
+        "tercerosMax": 325,
+        "totalMin": 483,
+        "totalMax": 847,
+        "multiplicadorApalancamiento": "0.58 - 0.62",
+        "cobertura": "1.58 - 1.62",
+        "programasClave": "Cubeto 1 El Inga, Concesión orgánicos, Emisarios Machángara/Monjas, Bonos Verdes"
+      }
+    },
+    "totalCartera": {
+      "aporteMunicipalRango": "USD 992.92M - 1.208.92M (40.5% - 49.4% de la inversión)",
+      "presionNetaPresupuesto": "USD 751.4M - 968.4M (30.7% - 39.5% tras descontar plusvalía y crédito repagable)",
+      "tercerosRango": "USD 1.348.15M - 1.495.15M",
+      "costoTotalRango": "USD 2.341.07M - 2.704.07M",
+      "multiplicadorGlobal": "1.24 - 1.36",
+      "coberturaGlobal": "2.24 - 2.36"
+    }
+  },
+  "marcoLegalHabilitante": {
+    "filosofia": "Ninguna propuesta sin su artículo. No se invaden competencias nacionales ni provinciales; se usan instrumentos de borde (convenios, mancomunidades, ordenanzas).",
+    "normasPrincipales": [
+      {
+        "norma": "Constitución de la República",
+        "arts": "264 (competencias exclusivas GADs), 266 (régimen especial DMQ), 316 (delegación a iniciativa privada)"
+      },
+      {
+        "norma": "COOTAD",
+        "arts": "54-55 (competencias cantonales), 57 (facultad normativa Concejo), 84-87 (distrito metropolitano), 130 (movilidad/tránsito), 140 (riesgos), 186 (tasas), 249 (10% no tributario social), 275 (modalidades de gestión), 285 (mancomunidades), 486 (regularización asentamientos), 569 (contribución mejoras), 594 (expropiación VIS)"
+      },
+      {
+        "norma": "LOOETA",
+        "arts": "9 (regulación por riesgo), 10 (presunción veracidad), 11 (Once-Only: prohibición de pedir datos existentes), 12 (publicación tiempos), 15 (trámites 100% en línea), 17 (término máximo)"
+      },
+      {
+        "norma": "COA",
+        "art": "207 (Silencio administrativo positivo automático)"
+      },
+      {
+        "norma": "LOOTUGS",
+        "arts": "68, 71, 72 (Concesión onerosa de derechos / captura de plusvalías)"
+      },
+      {
+        "norma": "Ley de Eficiencia Económica y Empleo (2023)",
+        "arts": "Régimen actualizado de Asociaciones Público-Privadas (APPs) y concesiones"
+      },
+      {
+        "norma": "Ley de Comercio Electrónico",
+        "art": "14 (Validez de firma electrónica simple para trámites no acreditados expresamente)"
+      }
+    ]
+  }
+}

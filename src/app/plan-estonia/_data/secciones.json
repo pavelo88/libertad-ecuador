@@ -1,0 +1,72 @@
+[
+  {
+    "id": "portada-autores-carta-misión-y-visión",
+    "title": "Portada, autores, carta, misión y visión",
+    "startPage": 1,
+    "endPage": 5,
+    "url": "/plan/portada-autores-carta-misión-y-visión"
+  },
+  {
+    "id": "i-diagnostico-del-distrito-metropolitano-de-quito",
+    "title": "I. Diagnóstico del Distrito Metropolitano de Quito",
+    "startPage": 6,
+    "endPage": 36,
+    "url": "/plan/i-diagnostico-del-distrito-metropolitano-de-quito"
+  },
+  {
+    "id": "ii-objetivos",
+    "title": "II. Objetivos",
+    "startPage": 37,
+    "endPage": 39,
+    "url": "/plan/ii-objetivos"
+  },
+  {
+    "id": "iii-modelo-de-ciudad-y-modelo-de-gestión",
+    "title": "III. Modelo de ciudad y modelo de gestión",
+    "startPage": 40,
+    "endPage": 58,
+    "url": "/plan/iii-modelo-de-ciudad-y-modelo-de-gestión"
+  },
+  {
+    "id": "iv-plan-de-trabajo-plurianual",
+    "title": "IV. Plan de trabajo plurianual",
+    "startPage": 59,
+    "endPage": 130,
+    "url": "/plan/iv-plan-de-trabajo-plurianual"
+  },
+  {
+    "id": "v-marco-legal",
+    "title": "V. Marco legal",
+    "startPage": 131,
+    "endPage": 137,
+    "url": "/plan/v-marco-legal"
+  },
+  {
+    "id": "vi-rendición-de-cuentas",
+    "title": "VI. Rendición de cuentas",
+    "startPage": 138,
+    "endPage": 140,
+    "url": "/plan/vi-rendición-de-cuentas"
+  },
+  {
+    "id": "vii-apartado-presupuestario",
+    "title": "VII. Apartado presupuestario",
+    "startPage": 141,
+    "endPage": 151,
+    "url": "/plan/vii-apartado-presupuestario"
+  },
+  {
+    "id": "viii-manifiesto",
+    "title": "VIII. Manifiesto",
+    "startPage": 152,
+    "endPage": 154,
+    "url": "/plan/viii-manifiesto"
+  },
+  {
+    "id": "ix-fuentes",
+    "title": "IX. Fuentes",
+    "startPage": 155,
+    "endPage": 159,
+    "url": "/plan/ix-fuentes"
+  }
+]
