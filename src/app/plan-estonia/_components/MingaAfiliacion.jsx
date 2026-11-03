@@ -97,7 +97,7 @@ export default function MingaAfiliacion() {
     setLoading(true);
 
     try {
-      const res = await fetch('/api/participacion', {
+      const res = await fetch('/plan-estonia/api/participacion', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

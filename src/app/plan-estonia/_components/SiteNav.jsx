@@ -114,7 +114,7 @@ export default function SiteNav() {
     }
   };
 
-  const isHome = route === '/';
+  const isHome = route === '/' || route === '/plan-estonia';
 
   return (
     <>

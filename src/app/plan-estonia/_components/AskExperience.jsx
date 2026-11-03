@@ -7,7 +7,7 @@ function ChatInner(){
  useEffect(()=>{try{const prior=JSON.parse(sessionStorage.getItem('estonia-chat')||'[]');if(Array.isArray(prior))setMessages(prior.slice(-10));}catch{}},[]);
  useEffect(()=>{if(messages.length)sessionStorage.setItem('estonia-chat',JSON.stringify(messages.slice(-10)));bottom.current?.scrollIntoView({behavior:'smooth',block:'end'});},[messages]);
  async function ask(text){const q=text.trim();if(q.length<6||busy)return;setError('');setQuestion('');setMessages(old=>[...old,{role:'user',text:q}]);setBusy(true);const c=new AbortController();controller.current=c;
-  try{const response=await fetch('/api/preguntar',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:q}),signal:c.signal});const data=await response.json();if(!response.ok)throw new Error(data.error||'No se pudo responder');setMessages(old=>[...old,{role:'assistant',text:data.answer,mode:data.mode, sources:data.sources||[], fallback:data.fallback}]);}
+  try{const response=await fetch('/plan-estonia/api/preguntar',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:q}),signal:c.signal});const data=await response.json();if(!response.ok)throw new Error(data.error||'No se pudo responder');setMessages(old=>[...old,{role:'assistant',text:data.answer,mode:data.mode, sources:data.sources||[], fallback:data.fallback}]);}
   catch(e){if(e.name!=='AbortError')setError(e.message||'Error de conexión.');}finally{setBusy(false);controller.current=null;}
  }
  useEffect(()=>{if(initial && last.current!==initial){last.current=initial;ask(initial);}},[initial]);
